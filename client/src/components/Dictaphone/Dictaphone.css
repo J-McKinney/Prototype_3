@@ -1,0 +1,139 @@
+#wrapper {
+  background-image: linear-gradient(to bottom, #16252c, #2d3a41);
+  background-size: cover;
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+  box-sizing: border-box;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#buttonContainer {
+  text-align: center;
+  justify-content: center;
+}
+
+#buttonRow {
+  text-align: center;
+  justify-content: center;
+}
+
+#favIcon {
+  font-size: 2.6rem;
+}
+
+#recordButton {
+  color: white;
+  background-color: #bf544f;
+  border-color: #bf544f;
+  border-radius: 15px;
+  justify-content: center;
+  box-shadow: 7px 7px 7px rgb(0, 0, 0);
+  margin: 0 0 1.5% 0;
+  width: 100%;
+}
+
+#resetButton {
+  color: white;
+  background-color: #53725e;
+  border-color: #53725e;
+  border-radius: 15px;
+  justify-content: center;
+  box-shadow: 7px 7px 7px rgb(0, 0, 0);
+  margin: 0 0 1.5% 0;
+  width: 100%;
+}
+
+#submitButton {
+  color: white;
+  background-color: #778989;
+  border-color: #778989;
+  border-radius: 15px;
+  justify-content: center;
+  box-shadow: 7px 7px 7px rgb(0, 0, 0);
+  margin: 0 0 1.5% 0;
+  width: 100%;
+}
+
+#randomWordButton {
+  color: #000000;
+  background-color: #d5d7d6;
+  border-color: #d5d7d6;
+  text-align: center;
+  width: 80%;
+  border-radius: 15px;
+  box-shadow: 7px 7px 7px rgb(0, 0, 0);
+}
+
+#newWordText {
+  font-size: 1.5rem;
+}
+
+#randomWordPlacement {
+  color: white;
+  text-align: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 3.6rem;
+  margin: 4% 0 0 0;
+}
+
+#randomWordRow {
+  text-align: center;
+  justify-content: center;
+  /* margin: 0 0 2% 0; */
+}
+
+#randomWordButtonRow {
+  margin: 2% 0 1% 0;
+}
+
+#randomWordContainer,
+#randomWordCol,
+#randomWordButtonRow {
+  text-align: center;
+  justify-content: center;
+}
+
+#oscilloscopeRow {
+  text-align: center !important;
+  justify-content: center !important;
+}
+
+.oscilloscope {
+  border-radius: 25px;
+  width: 100%;
+  height: 50%;
+  /* box-shadow: 7px 7px 7px rgb(0, 0, 0);
+    margin: 0 0 1% 0; */
+}
+
+#audio-playback-controls {
+  text-align: center !important;
+}
+
+#interimTranscript {
+  color: white;
+  font-weight: bold;
+  /* font-size: 2rem; */
+}
+
+#finalTranscriptContainer {
+  text-align: center;
+  justify-content: center;
+  /* background-image: linear-gradient(to bottom, #212f36, #2c3940); */
+  height: 100px;
+  width: 100%;
+  overflow: auto;
+}
+
+#finalTranscript {
+  color: white;
+  font-weight: bold;
+  /* font-size: 2rem; */
+}
