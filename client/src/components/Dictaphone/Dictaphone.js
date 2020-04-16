@@ -19,6 +19,24 @@ recognition.lang = "en-US";
 let finalTranscript = "";
 let interimTranscript = "";
 
+if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+  //   console.log("It's Working!");
+  navigator.mediaDevices
+    .getUserMedia({ audio: true })
+    // Success callback
+    .then(function (stream) {
+      var mediaRecorder = new MediaRecorder(stream);
+      mediaRecorder.start();
+      // console.log(mediaRecorder);
+    })
+    // Error callback
+    .catch(function (err) {
+      console.log("The following getUserMedia error occured: " + err);
+    });
+} else {
+  console.log("getUserMedia not supported on your browser!");
+}
+
 //------------------------COMPONENT-----------------------------
 class Dictaphone extends Component {
   constructor(props) {
